@@ -1,0 +1,3 @@
+module "kind" {
+  source = "./kind"
+}
