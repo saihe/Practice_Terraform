@@ -1,15 +1,22 @@
 # Practice_Terraform
 
-ローカルでTerrafromを使ってみる。kindでkubernetes環境がある前提。
+ローカルで Terrafrom を使ってみる。kind で kubernetes 環境がある前提。
+
+## ログイン API トークン
+
+uNWkWDVSHduXJw.atlasv1.PppsyzR77izqIDQ2Rv2Zx3Tdu6ruALe0bF7e2McqldxlaiKBckeR1ioKq3SFGlOEkn4
 
 ## 実行方法
 
+- ログ
+  - TF_LOG=debug
+  - TF_LOG_PATH=./tf.log
 - 検査
   - terraform validate
 - 計画作成
   - terraform plan
 - 適用
-  - terraform apply
+  - TF_LOG=debug TF_LOG_PATH=./tf.log terraform apply
 - 破棄
   - terraform destroy
 
@@ -23,4 +30,3 @@
   - kubectl get clusters
 - ポッド確認
   - kubectl get pods
-
