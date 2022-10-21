@@ -4,7 +4,7 @@
 
 ## ログイン API トークン
 
-uNWkWDVSHduXJw.atlasv1.PppsyzR77izqIDQ2Rv2Zx3Tdu6ruALe0bF7e2McqldxlaiKBckeR1ioKq3SFGlOEkn4
+terraform cloudにある。
 
 ## 実行方法
 
